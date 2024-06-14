@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-image: url();
+}
+body {
+  overflow-x: hidden;
+}
+/* header css */
+header {
+  padding: 18px 0px;
+}
+.header-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.logo h2 {
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.navbar {
+  display: flex;
+  gap: 25px;
+}
+.navbar ul {
+  display: flex;
+  gap: 40px;
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+.navbar .download a {
+  padding: 8px 20px;
+  background-color: #2889ff;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* main css */
+main {
+  background-image: url(assets/cowork-7.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* home css */
+#home {
+  padding: 90px 0px;
+  background-image: url(assets/bg.jpg);
+  background-size: cover;
+  width: 100%;
+  justify-content: center;
+  font-size: 15px;
+}
+.home-container {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.home-container h1 {
+  font-size: 50px;
+  font-weight: 300;
+  color: #fff;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.home-desc {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 300;
+  opacity: 0.7;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.free-download {
+  background-color: #2889ff;
+  width: fit-content;
+  padding: 8px 20px;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.free-download a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+.version-desc {
+  margin: 25px auto 0;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 13px;
+}
+
+/* brands css */
+#brands {
+  padding: 70px 0px;
+  text-align: center;
+  background-color: #fff;
+}
+#brands h4 {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.35;
+  letter-spacing: -0.08rem;
+}
+.brands-logo {
+  display: flex;
+  gap: 60px;
+  padding: 15px 0px;
+  margin-top: 40px;
+  justify-content: center;
+}
+.brands-logo img {
+  height: 38px;
+}
+
+/* information1 css */
+#information1 {
+  padding: 100px 0;
+  justify-content: center;
+  align-items: start;
+  display: flex;
+  gap: 2rem;
+  background-color: white;
+}
+#information1 .img-wrap {
+  flex: 1 1 0;
+}
+.img-wrap img {
+  width: 170%;
+  transform: translateX(-40%);
+}
+#information1 .desc {
+  flex: 1 1 0;
+  margin-top: 40px;
+}
+.information1-title {
+  line-height: 1.25;
+  font-size: 42px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding-right: 200px;
+}
+.desc p {
+  font-size: 17px;
+  margin-bottom: 25px;
+  padding-right: 200px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* information2 css */
+#information2 {
+  padding: 100px 0;
+  justify-content: center;
+  align-items: start;
+  display: flex;
+  gap: 2rem;
+  background-color: #fff;
+}
+.desc2 {
+  flex: 1 1 0;
+  margin-top: 40px;
+}
+.desc2 h2 {
+  line-height: 1.25;
+  font-size: 42px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding-left: 200px;
+}
+.desc2 p {
+  font-size: 17px;
+  margin-bottom: 25px;
+  padding-left: 200px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.img-wrap2 {
+  flex: 1 1 0;
+}
+.img-wrap2 img {
+  width: 170%;
+  transform: translateX(10%);
+}
+
+/* information3 css */
+#information3 {
+  padding: 100px 0;
+  justify-content: center;
+  align-items: start;
+  display: flex;
+  gap: 2rem;
+  background-color: #fff;
+}
+.desc3 {
+  flex: 1 1 0;
+  margin-top: 40px;
+}
+.desc3 h2 {
+  line-height: 1.25;
+  font-size: 42px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding-right: 200px;
+}
+.desc3 p {
+  font-size: 17px;
+  margin-bottom: 25px;
+  padding-right: 200px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.img-wrap3 {
+  flex: 1 1 0;
+}
+.img-wrap3 img {
+  width: 170%;
+  transform: translateX(-40%);
+}
+
+/* product css */
+#product {
+  padding: 150px 0;
+  background-color: #fff;
+}
+.product-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.product-title {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.product-title h2 {
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.product-title p {
+  font-size: 17px;
+}
+.product-list {
+  display: flex;
+  gap: 34px;
+}
+.product-card {
+  width: 30%;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.product-card img {
+  margin-bottom: 25px;
+  width: 60px;
+  height: 60px;
+}
+.product-card h4 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+.product-card p {
+  font-size: 15px;
+}
+
+/* started css */
+#getstrated {
+  padding: 145px 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7));
+}
+.started-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+.started-container h2 {
+  font-size: 42px;
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+.started-container p {
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.started-container .button {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.button .button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(40, 137, 255);
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+.button .button2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: 2px solid white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.button1 a {
+  color: white;
+  text-decoration: none;
+}
+.button2 a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.6;
+  transition: color 0.3s ease, opacity 0.3s ease;
+}
+.button2:hover {
+  background-color: #fff;
+}
+.button2 a:hover {
+  color: black;
+  opacity: 100%;
+}
+
+/* footer css */
+footer {
+  background: black;
+
+  color: rgb(183, 183, 183);
+}
+.container-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  gap: 100px;
+  width: 100%;
+}
+.content-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.content-list h4 {
+  color: rgb(183, 183, 183);
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+.content-list ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 20px;
+}
+.container-list ul li a {
+  color: rgb(183, 183, 183);
+  text-decoration: none;
+  font-weight: 300;
+  opacity: 0.6;
+  transition: 0.5s;
+}
+.logo-footer {
+  display: flex;
+  margin-top: 50px;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo-footer p {
+  opacity: 0.6;
+}
